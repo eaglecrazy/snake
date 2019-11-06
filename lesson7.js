@@ -1,4 +1,4 @@
-/*jslint devel: true, plusplus: true, vars: true, white: true*/
+﻿/*jslint devel: true, plusplus: true, vars: true, white: true*/
 /*eslint-env browser*/
 /*eslint no-console: 0*/
 
@@ -38,7 +38,7 @@ function init() {
     document.getElementById('snake-start').addEventListener('click', startGame);
     document.getElementById('snake-renew').addEventListener('click', refreshGame);
 
-    // Отслеживание клавиш клавиатуры
+    // Отслеживание клавиш клавиатур ы
     addEventListener('keydown', changeDirection);
 }
 
